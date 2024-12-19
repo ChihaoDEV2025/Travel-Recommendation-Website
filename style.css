@@ -1,0 +1,308 @@
+/* Reset Body Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* navigate */
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 15px 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* Navigation Links Styling */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 30px; 
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #00a9e0; 
+}
+
+/* Search Input */
+
+#search {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1rem;
+  margin-left: 450px;
+}
+
+/* Search Button */
+#searchButton {
+  padding: 8px 15px;
+  background-color: #00a9e0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#searchButton:hover {
+  background-color: #0088c1;
+}
+
+/* Reset Button */
+#resetButton {
+  padding: 8px 15px;
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#resetButton:hover {
+  background-color: #d63838;
+}
+
+/* Background Image */
+.background {
+  background-image: url("./Image_Background/HomeBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* Text Container */
+.content {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Heading Styling */
+.content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.1;
+}
+
+/* Paragraph Styling */
+.content p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+/* Book button*/
+.button {
+  background-color: #00a9e0;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0088c1;
+}
+
+/* Social Media Icons */
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #00a9e0;
+}
+
+/* About Us Section */
+.about-us {
+  padding-top: 150px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-us h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.about-us strong {
+  font-weight: 600;
+}
+
+/* Team Section */
+.team-section {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.team-section h2 {
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.team-section h2 span {
+  color: #00a9e0; 
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.member {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.member .name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.member button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #00a9e0;
+  color: white;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.member button:hover {
+  background-color: #0088c1;
+}
+
+/* Contact Us */
+#ContactUs {
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactUs {
+  text-align: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+#contactForm input,
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contactForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background-color: #218838;
+}
+
+/* Recommendation */
+
+
+.recommendations-container {
+  position: absolute;
+  top: 60px; 
+  right: 20px; 
+  width: 300px; 
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: white;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+.recommend-card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.recommend-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,38 @@
+{
+  "beach": [
+    {
+      "name": "Hawaii",
+      "description": "Beautiful beaches and warm weather.",
+      "imageUrl": "D:/6._Development/FInalProject/TravelRecommendation/Image_Vactions/hawaii.jpg"
+    },
+    {
+      "name": "Maldives",
+      "description": "A tropical paradise.",
+      "imageUrl": "D:/6._Development/FInalProject/TravelRecommendation/Image_Vactions/Maldives.jpg"
+    }
+  ],
+  "temple": [
+    {
+      "name": "Angkor Wat",
+      "description": "A historic temple in Cambodia.",
+      "imageUrl": "D:/6._Development/FInalProject/TravelRecommendation/Image_Vactions/Angkor_Wat.jpg"
+    },
+    {
+      "name": "Taj Mahal",
+      "description": "A symbol of love in India.",
+      "imageUrl": "D:/6._Development/FInalProject/TravelRecommendation/Image_Vactions/Taj_Mahal.webp"
+    }
+  ],
+  "country": [
+    {
+      "name": "Japan",
+      "description": "Rich culture and delicious food.",
+      "imageUrl": "D:/6._Development/FInalProject/TravelRecommendation/Image_Vactions/japan.jpg"
+    },
+    {
+      "name": "Italy",
+      "description": "Famous for its art and cuisine.",
+      "imageUrl": "D:/6._Development/FInalProject/TravelRecommendation/Image_Vactions/Italy.jpg"
+    }
+  ]
+}
